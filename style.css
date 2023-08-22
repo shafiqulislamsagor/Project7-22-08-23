@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100&family=Kanit:ital,wght@1,100&family=Lobster&family=Tilt+Prism&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.all {
+    background: #bdc3c7;
+}
+
+.margin {
+    width: 90%;
+    margin: auto;
+}
+
+.menubar {
+    font-family: 'Barlow', sans-serif;
+}
+
+.menubar ul {
+    background-color: #3498db;
+    display: flex;
+    justify-content: center;
+}
+
+.menubar ul a {
+    display: block;
+    padding: 20px 73px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 19px;
+    transition: 0.5s;
+}
+
+.menubar ul a:hover {
+    color: greenyellow;
+    background-color: #2980b9;
+}
+
+.big {
+    display: flex;
+    justify-content: space-between;
+}
+
+.small-1 {
+    width: 48%;
+}
+
+.gg {
+    padding: 40px 0px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.gg h2 {
+    margin-top: 10px;
+    margin-bottom: 19px;
+    font-size: 30px;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.gg p {
+    font-size: 17px;
+    text-align: left;
+    font-family: 'Barlow', sans-serif;
+}
+
+.small-2 {
+    width: 48%;
+}
+
+.team-title h2 {
+    text-align: center;
+    font-size: 35px;
+    font-style: italic;
+    margin-bottom: 52px;
+    color: #0e6352;
+    margin-top: 38px;
+    text-decoration: underline;
+}
+
+.team-member {
+    display: flex;
+    justify-content: space-between;
+}
+
+.member {
+    width: 24%;
+}
+
+.member img {
+    max-width: 100%;
+}
+
+.member span {
+    font-size: 19px;
+    font-style: italic;
+}
+
+.box {
+    background-color: #0edbb2;
+    width: 280px;
+    height: 150px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.inner-box1 {
+    background-color: #2a72b6;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+    border-radius: 50%;
+}
+
+.inner-box1 a {
+    color: #fff;
+    font-size: 50px;
+    transition: 0.5s;
+}
+
+.inner-box2 {
+    background-color: #2a72b6;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+    border-radius: 50%;
+}
+
+.inner-box2 a {
+    color: #fff;
+    font-size: 50px;
+    transition: 0.5s;
+}
+
+.ttt:hover {
+    color: greenyellow;
+}
